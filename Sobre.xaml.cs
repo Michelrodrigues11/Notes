@@ -1,4 +1,4 @@
-namespace Notes;
+namespace notes;
 
 public partial class Sobre : ContentPage
 {
@@ -12,4 +12,5 @@ public partial class Sobre : ContentPage
         // Navigate to the specified URL in the system browser.
         await Launcher.Default.OpenAsync("https://aka.ms/maui");
     }
+
 }
